@@ -1,9 +1,9 @@
 # FOWD
-:ocean: Processing framework for FOWD, a free ocean wave dataset, ready for your ML application. 
+Processing framework for FOWD, a free ocean wave dataset.
 
 ## Installation
 
-After downloading the repository, you can install FOWD and all dependencies (preferably into a virtual environment) via:
+After downloading the repository, you can install FOWD and all dependencies.
 
 ```bash
 $ pip install -r requirements.txt
@@ -16,7 +16,7 @@ After installing the Python code, you can use the command line tool `fowd` to cr
 
 ### CDIP
 
-Currently, the best supported source is [CDIP buoy data](https://cdip.ucsd.edu/):
+Use [CDIP buoy data](https://cdip.ucsd.edu/):
 
 ```bash
 $ fowd process-cdip 433p1 -o fowd-cdip-out
